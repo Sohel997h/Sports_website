@@ -1,0 +1,153 @@
+.heroimage {
+    background: url('heroimage.jpg');
+    width: 250px;
+    height: 180px;
+}
+.header {
+    height: 100px;
+    width: 100%;
+    display: flex;
+    margin-bottom: 10px;
+    background-color: black;
+}
+body {
+    max-width: 980px;
+    margin: auto;
+    background-color: aquamarine;
+}
+.logo{
+    margin: 10px;
+    width: 125px;
+}
+img {
+    border-radius: 50%;
+    width: 125px;
+    height: 75px;
+}
+.mid {
+    width: 840px;
+    margin: 20px 10px;
+    float: right;
+    /* border: 2px solid green; */
+}
+.navbar a {
+    color: white;
+    padding: 34px 23px;
+    text-decoration: none;
+
+}
+.navbar li {
+    background-color: rgb(202, 39, 161);
+    font-size: 16px;
+    display: inline-block;
+    margin: 0 75px;
+    border-radius: 10px;
+}
+.navbar li a:hover,
+.navbar li a.active {
+    text-decoration: underline;
+    color: red;
+}
+.heroimage {
+    width: 980px;
+    height: 300px;
+    border-radius: 10px;
+}
+.herotitle {
+    text-align: center;
+    font-size: 50px;
+    margin: 0px;
+    text-decoration: underline;
+}
+.texttitle {
+    text-align: center;
+    font-size: 25px;
+    /* text-decoration: underline; */
+}
+.dummy-text {
+    text-align: center;
+    /* font-size: 30px; */
+    padding: 10px;
+}
+.content-dummy {
+    /* text-align: justify; */
+    font-size: 15px;
+    margin: 0px;
+    /* display:flex; */
+    align-items: center;
+}
+.box {
+    border: 2px solid #080808;
+    background-color: rgb(212, 206, 206);
+    margin: 4px 4px 4px 0px;
+    padding: 12px;
+    width: 33%;
+    box-sizing: border-box;
+    display: inline-block;
+    border-radius: 50px;
+}
+.box6 {
+    /* border: 2px solid red; */
+    /* background-color: grey; */
+    margin: 4px 4px 4px 0px;
+    padding: 12px;
+    width: 33%;
+    box-sizing: border-box;
+    display: inline-block;
+    /* border: 2px solid; */
+}
+.container {
+    display: flex;
+}
+.heading{
+    text-align: center;
+}
+.links {
+    /* border: 2px solid #080808; */
+    /* background-color: grey; */
+    margin: 4px 4px 4px 0px;
+    padding: 12px;
+    width: 33%;
+    box-sizing: border-box;
+    height: 160px;
+    border-radius: 50px;
+}
+.about {
+    /* border: 2px solid #080808; */
+    /* background-color: grey; */
+    margin: 4px 4px 4px 0px;
+    padding: 12px;
+    width: 33%;
+    box-sizing: border-box;
+    text-align: center;
+    height: 160px;
+    border-radius: 50px;
+    text-align: center;
+}
+.subscribe {
+    /* border: 2px solid #080808; */
+    /* background-color: grey; */
+    margin: 4px 4px 4px 0px;
+    padding: 12px;
+    width: 33%;
+    box-sizing: border-box;
+    height: 160px;
+    border-radius: 50px;
+    text-align: center;
+}
+.footer {
+    /* width: 33%; */
+    display: flex;
+    background-color: #cdf582;
+}
+.navbar1 a {
+    color:blue;
+}
+.navbar1 li a:hover,
+.navbar1 li a.active {
+    text-decoration: underline;
+    color: red;
+}
+.label{
+    border-radius: 15px;
+}
